@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.emojiField {
+  width: 40%;
+  height: 5vh;
+  border: 2px solid gray;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3), 0 5px 10px rgba(0, 0, 0, 0.22);
+}
+
+.emojiField:focus {
+  width: 42%;
+  height: 5.5vh;
+  outline: none;
+  border: 2px solid #256eff;
+}
+
+@media screen and (max-width: 600px) and (min-width: 0px);
